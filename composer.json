@@ -1,0 +1,30 @@
+{
+    "name": "mannysoft/freshsales",
+    "description": "Laravel Fresh Sales API",
+    "keywords": [
+        "laravel",
+        "freshsales",
+        "api",
+        "SDK",
+        "Unofficial",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Manny Isles",
+            "email": "manny.isles@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mannysoft\\FreshSales\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+    "minimum-stability": "dev"
+}
